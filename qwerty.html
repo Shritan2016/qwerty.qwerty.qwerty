@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>A Creepy Story</title>
+    <style>
+        body {
+            background-color: white;
+        }
+
+        button {
+            background-color: orangered;
+            display: flexbox;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+<h1>My Hobbies</h1>
+<p id="story">A hobby is a regular activity done for pleasure, relaxation, or fun during free time, separate from one's job or school.</p>
+
+<button onclick="goDark()">Learn about my Hobbies</button>
+
+<script>
+     function goDark() {
+            document.getElementById("story").innerHTML = "My hobbies are:-Playing Cricket, Singing, Coding, Reading Books. ";
+        }
+</script>
+</body>
+</html>
